@@ -15,5 +15,5 @@ Instructions
 5. Boot into it.
 6. Install drivers from https://github.com/pal1000/Realtek-UAD-generic/ releases with `pnputil` like so (https://github.com/hobbit19/realtek-universal-audio-driver/#b-using-pnputil-only-for-user-who-have-hardware-id-is-not-found-error-when-using-universal-audio-driver-inf-editor, also, mind the `XXX` markings!).
 7. Once you're done installing all of these, run `sndvol.exe` from your main Windows installation in the Validation OS command prompt. It should be able to detect audio devices at the very least.
-8. Reboot back to main Windows. Remove `Microsoft-WinVOS-TerminalServices-Package` package (https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/dism-operating-system-package-servicing-command-line-options?view=windows-11#remove-package) and add Win0N-RL2.Package.cab.
+8. Reboot back to main Windows. Remove `Microsoft-WinVOS-TerminalServices-Package` package (https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/dism-operating-system-package-servicing-command-line-options?view=windows-11#remove-package) and add Win0N-RL2-Package.cab.
 9. Reboot into text mode, and run the demo.
